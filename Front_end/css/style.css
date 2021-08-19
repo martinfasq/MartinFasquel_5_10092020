@@ -4501,23 +4501,7 @@ readers do not read off random characters that represent icons */
 .fa-zhihu:before {
   content: "\f63f"; }
 
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px; }
 
-.sr-only-focusable:active, .sr-only-focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto; }
 
 /*!
  * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
@@ -4563,24 +4547,6 @@ readers do not read off random characters that represent icons */
     .flex-block {
       display: block; } }
 
-#panier-resume {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  margin: auto; }
-
-#error {
-  text-align: center;
-  margin: 2rem; }
-  #error__logo {
-    color: #C57863;
-    font-size: 3rem; }
-  #error__msg {
-    text-align: center;
-    font-size: 1.5rem; }
-
-#panierVide {
-  text-align: center; }
 
 .btn {
   background: transparent;
@@ -4607,29 +4573,7 @@ readers do not read off random characters that represent icons */
       .btn--form {
         font-size: 0.8rem; } }
 
-table {
-  margin: auto;
-  border: none;
-  letter-spacing: 1px;
-  font-size: 0.8rem;
-  border-collapse: collapse;
-  border-spacing: 0; }
 
-td, th {
-  border: 1px solid #bebebe;
-  padding: 10px 20px; }
-
-th {
-  background-color: #ebebeb; }
-
-td {
-  text-align: center; }
-
-caption {
-  padding: 10px; }
-
-.annulerProduit {
-  margin: 1rem; }
 
 .form {
   -webkit-box-flex: 1;
@@ -4723,62 +4667,8 @@ footer {
   padding: 1.5rem;
   background-color: #F3E9F1; }
 
-.list-produit {
-  margin-top: 1rem; }
-  .list-produit__block {
-    border: 3px solid #59545e;
-    margin: 1%;
-    padding: 1%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    .list-produit__block--left {
-      -webkit-box-flex: 2;
-          -ms-flex: 2;
-              flex: 2; }
-      .list-produit__block--left img {
-        width: 100%; }
-    .list-produit__block--right {
-      -webkit-box-flex: 3;
-          -ms-flex: 3;
-              flex: 3;
-      text-align: center; }
-      .list-produit__block--right h2 {
-        font-size: 3rem;
-        color: red; }
-        @media screen and (max-width: 425px) {
-          .list-produit__block--right h2 {
-            font-size: 1.5rem; } }
-      .list-produit__block--right p {
-        font-size: 1.5rem; }
 
-.sheet-produit {
-  display: none;
-  margin: 2rem; }
-  .sheet-produit__name {
-    font-size: 2rem;
-    text-align: center; }
-  .sheet-produit__img {
-    -webkit-box-flex: 3;
-        -ms-flex: 3;
-            flex: 3; }
-    .sheet-produit__img img {
-      width: 100%; }
-  .sheet-produit__description {
-    -webkit-box-flex: 3;
-        -ms-flex: 3;
-            flex: 3;
-    padding: 1rem; }
-    @media screen and (max-width: 425px) {
-      .sheet-produit__description {
-        padding: 0; } }
-    .sheet-produit__description__head {
-      font-weight: bold; }
-    .sheet-produit__description__order {
-      text-align: center; }
+
 
 .confirmation-commande {
   background-color: #F3E9F1;
