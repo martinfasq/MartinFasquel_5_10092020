@@ -4644,6 +4644,24 @@ readers do not read off random characters that represent icons */
               align-items: center;
       padding: 0; } }
 
+      .sheet-product {
+        margin: 2rem; }
+        .sheet-product__name {
+          font-size: 2rem;
+          text-align: center; }
+        .sheet-product__img {
+          -webkit-box-flex: 3;
+              -ms-flex: 3;
+                  flex: 3; }
+          .sheet-product__img img {
+            width: 100%; }
+        .sheet-product__description {
+          -webkit-box-flex: 3;
+              -ms-flex: 3;
+                  flex: 3;
+          padding: 1rem; }
+
+      
 .nav__link {
   text-decoration: none;
   color: black;
